@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    position: fixed;
+    background-color: #a9a9a9;
+    display: block;
+    z-index: 1;
+}
+nav ul li a{
+    list-style: none;
+    text-decoration: none;
+}
+li{
+    list-style: none;
+    text-align: center;
+}
+.cuadrado{
+    margin: auto;
+    padding: auto;
+    width: 200px;
+    height: 200px;
+    background-color: darkolivegreen;
+    display: inline-block;
+    text-align: center;
+    
+}
+.rectangulo{
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    z-index: 100;
+    display: inline-block;
+    
+}
+a{
+    color: white;
+}
+a:hover{
+    color: black;
+}
